@@ -6,9 +6,8 @@ COPY package.json ./server2
 
 RUN npm install
 
-COPY . ./server2
+COPY . .
 
-EXPOSE 3000
 EXPOSE 5450
 
-CMD ["npm", "install"]
+CMD ["npm", "start"]
