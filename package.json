@@ -1,0 +1,31 @@
+{
+  "name": "task-cognera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently --kill-others \"node server1/index.js\" \"node server2/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmanPandey0320/task-cognera.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmanPandey0320/task-cognera/issues"
+  },
+  "homepage": "https://github.com/AmanPandey0320/task-cognera#readme",
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0",
+    "socket.io-client": "^4.0.0"
+  }
+}
